@@ -1,0 +1,70 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 1.7em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  padding: 2em 0em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &-login {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+  }
+  &-logo {
+    width: 45vw;
+    align-self: center;
+  }
+  &-btn {
+    align-self: flex-end;
+    width: 50%;
+    border: none;
+    background: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  &-welcome {
+    width: 100%;
+    text-align: center;
+  }
+  &-password {
+    margin: 1em 0;
+  }
+}
+
+.transfer {
+  display: flex;
+  flex-direction: column;
+  &__column {
+    display: flex;
+    padding: 1em;
+  }
+  &__type {
+    padding: 0 1em;
+    border-radius: 1em;
+    margin-right: 1em;
+    &--in {
+      background-color: rgb(24, 255, 24);
+    }
+    &--out {
+      background-color: red;
+    }
+  }
+}
+
+.bank-balance {
+  display: flex;
+}

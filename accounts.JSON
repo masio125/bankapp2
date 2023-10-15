@@ -1,0 +1,19 @@
+{
+  "account": [
+    {
+      "owner": "Maria Konopnicka",
+      "transfers": [200, 450, -400, 3000, -650, -130, 70, 1300, 500],
+      "pin": 1111
+    },
+    {
+      "owner": "Konrad Bartoszewski",
+      "transfers": [2000, 250, -475, 2322, -444, -100, 70, 1300],
+      "pin": 2222
+    },
+    {
+      "owner": "bleblu bleblu",
+      "transfers": [200, 450, -400, 3000, -650, -130, 70, 1300],
+      "pin": 2222
+    }
+  ]
+}

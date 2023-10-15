@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gold bank</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="./img/logo.png" alt="Logo of our bank" class="nav-logo" />
+      <form class="nav-login">
+        <input type="text" class="nav-user" placeholder="username" />
+        <input type="password" class="nav-password" placeholder="password" />
+        <button class="nav-btn">&rarr;</button>
+      </form>
+      <h1 class="nav-welcome">Welcome in Gold Bank</h1>
+    </nav>
+    <main class="bank">
+      <div class="bank-balance">
+        <p class="bank-balance__message">Current Balance</p>
+        <p class="bank-balance__date">current date</p>
+        <p class="bank-balance__value">3232</p>
+      </div>
+      <div class="transfer">
+        <div class="transer__column"></div>
+      </div>
+      <div class="summary">
+        <p class="summary-in">In</p>
+        <p class="summary-in__value"></p>
+        <p class="summary-out">Out</p>
+        <p class="summary-out__value"></p>
+      </div>
+      <div class="transfer">
+        <h3>send money</h3>
+        <form class="form-transfer">
+          <input type="text" class="form-transfer__to" />
+          <input type="number" class="form-transfer__amount" />
+          <button class="form-transfer__button">send</button>
+        </form>
+      </div>
+    </main>
+    <script src="js.js"></script>
+  </body>
+</html>
